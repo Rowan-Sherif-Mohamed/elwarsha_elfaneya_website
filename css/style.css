@@ -32,7 +32,17 @@ header {
 }
 
 .logo {
-    height: 55px;
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffb703;
+    box-shadow: 0 0 8px rgba(255, 183, 3, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.08);
 }
 
 nav ul {
