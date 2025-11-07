@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Warsha Al-Fannia</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="images/logo.png" alt="Al-Warsha Al-Fannia logo" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay">
+            <h1>Al-Warsha Al-Fannia</h1>
+            <p>Built on precision. Driven by innovation. <br> Precision you can trust — delivering high-quality metal
+                parts for all industries.</p>
+            <button onclick="scrollToSection('products')">Explore Products</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p id="about-text"></p>
+        <div class="values">
+            <div class="card" data-aos="fade-up">
+                <h3>Our Mission</h3>
+                <p id="mission-text"></p>
+            </div>
+            <div class="card" data-aos="fade-up">
+                <h3>Our Vision</h3>
+                <p id="vision-text"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- statistics -->
+    <section class="stats">
+        <div class="stat-card">
+            <h3>20+</h3>
+            <p>Years of Experience</p>
+        </div>
+        <div class="stat-card">
+            <h3>95%</h3>
+            <p>Customer Satisfaction</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div id="product-list" class="product-grid"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Get in Touch</h3>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="" target="_blank">
+                            El-amreya, Alexandria, Egypt
+                        </a>
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i> +20 106 853 5819</p>
+                    <p><i class="fa-solid fa-envelope"></i> alwarsha.alfannia@gmail.com</p>
+                    <div class="socials">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Alwarsha Alfaneya. All rights reserved.</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
